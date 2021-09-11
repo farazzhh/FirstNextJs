@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
 
 
 export default function Home() {
@@ -11,7 +12,8 @@ export default function Home() {
       </Head>
 
       <body>
-        
+        <Navbar/>
+        <h1 className="font-bold">HomePage</h1>
       </body>
       
     </div>
