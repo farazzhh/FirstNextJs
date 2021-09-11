@@ -1,6 +1,4 @@
-import Head from 'next/head'
-import Navbar from '../components/Navbar'
-
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -12,10 +10,12 @@ export default function Home() {
       </Head>
 
       <body>
-        <Navbar/>
-        <h1 className="font-bold">HomePage</h1>
+        <section className="h-96 bg-gray-100">
+          <div className="container mx-auto">
+            <h1> this is home screen</h1>
+          </div>
+        </section>
       </body>
-      
     </div>
-  )
+  );
 }
