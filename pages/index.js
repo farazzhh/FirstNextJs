@@ -10,9 +10,9 @@ export default function Home() {
       </Head>
 
       <body>
-        <section className="h-96 bg-gray-100">
-          <div className="container mx-auto">
-            <h1> this is home screen</h1>
+        <section className="h-96 bg-gray-100 py-12">
+          <div className="container mx-auto text-center">
+            <h1 className="text-xl"> This is HomePage</h1>
           </div>
         </section>
       </body>
